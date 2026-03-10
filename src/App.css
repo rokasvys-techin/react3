@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.char_grid {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+}
