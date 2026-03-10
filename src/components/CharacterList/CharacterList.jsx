@@ -14,9 +14,7 @@ function CharacterList() {
     function handleSubmit(e) {
         e.preventDefault();
         if (!nameInput.trim()) return;
-        if (!ageInput.trim()) return;
         if (!jobInput.trim()) return;
-        if (!imageInput.trim()) return;
 
         if (charId) {
             updateChar();
